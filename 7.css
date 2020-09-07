@@ -1,0 +1,56 @@
+h1{
+	text-align: center;
+	font-weight: 800;
+	font-size: 50px;
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border-bottom: 2px solid #f1f1f1;
+	padding-bottom: 20px;
+}
+
+.img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	height: 300px;
+	background: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#img1{
+	background-image: url(https://media2.picsearch.com/is?gs68KpPk6zGL9_ybC9IxmLTmhQm6kiaYtbKiSSdvWsE&height=341);
+}
+
+#img2{
+	background-image: url(https://media2.picsearch.com/is?AYM7u9p06wr09cfmNcZjYQyzDWxccOhIqQyHI5kugWY&height=191);
+}
+
+#img3{
+	background-image: url(https://media4.picsearch.com/is?Y7mgQKm5EZ9GTmOIvvtMjM8z8P7eQvfiK2MQ0E9T6GU&height=341);
+}
+
+#img4{
+	background-image: url(https://media3.picsearch.com/is?e7dz_dLqFWp5AB8PQcWQft4Jqtik_afkBcTjrICApug&height=215);
+}
+
+#img5{
+	background-image: url(https://media5.picsearch.com/is?M6EBvSiGVuWFDXevHMjESGImpMmcgUbp7D3iXatfbGA&height=227);
+}
+
+#img6{
+	background-image: url(https://media3.picsearch.com/is?hpihWqcXefOwTNVJQ9bgN5mXPS8It6ejXzzQwECk_Rs&height=183);
+}
+
+#img7{
+	background-image: url(https://media1.picsearch.com/is?e18un7FQu8z8_7VIQRTPlihJBZq85vPDAcOP5ARD-ow&height=289);
+}
+
+#img8{
+	background-image: url(https://media5.picsearch.com/is?pk8B8l-TjwtBBPlVUNDTUi80mqygrALr8T-h_dm0L38&height=288);
+}
+
+#img9{
+	background-image: url(https://media3.picsearch.com/is?iC3pg0F5wbKnxxdgg9qYN2d-lcZH5KIbWWy3qSdY2_E&height=341);
+}

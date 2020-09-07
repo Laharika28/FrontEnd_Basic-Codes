@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+			<label for="firstName">First Name:</label>
+			<input id="firstName" type="text" name="firstName" placeholder="John" required>
+			<label for="lastName">Last Name:</label>
+     		<input id="lastName" type="text" name="lastName" placeholder="Smith" required>
+		</div>
+		
+    		<div>
+    			<label for="male">Male</label>
+			<input id="male" type="radio" name="gender" value="male">
+			<label for="female">Female</label>
+			<input id="female" type="radio" name="gender" value="female">
+			<label for="other">Other</label>
+			<input id="other" type="radio" name="gender" value="other">
+    		</div>
+    		
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email" required placeholder="your email">
+			<label for="password">Password:</label>
+			<input id="password" type="password" name="password" pattern=".{5,10}" title="5 to 10 characters" required>
+		</div>
+
+		<div>
+			<label>
+			Birthday:
+			<select name="Month">
+				<option>-Month-</option>
+				<option value="Jan">January</option>
+				<option value="Feb">February</option>
+				<option value="Mar">March</option>
+				<option value="Apr">April</option>
+				<option value="May">May</option>
+				<option value="Jun">June</option>
+				<option value="Jul">July</option>
+				<option value="Aug">August</option>
+				<option value="Sep">September</option>
+				<option value="Oct">October</option>
+				<option value="Nov">November</option>
+				<option value="Dec">December</option>
+			</select>
+			<select name="Day">
+				<option>-Day-</option>
+				<option value="Sun">Sunday</option>
+				<option value="Mon">Monday</option>
+				<option value="Tues">Tuesday</option>
+				<option value="Wed">Wednesday</option>
+				<option value="Thurs">Thursday</option>
+				<option value="Fri">Friday</option>
+				<option value="Sat">Saturday</option>
+			</select>
+			<select name="Year">
+				<option>-Year-</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+			</label>	
+			</select>
+		</div>
+		
+		<div>
+			<label for="terms">I agree to the terms and conditions </label>
+     		<input id="terms" name="terms" type="checkbox">
+		</div>
+		
+     	<button>Submit</button>
+	</form>
+</body>
+</html>
+
+	
+	
